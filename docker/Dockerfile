@@ -10,4 +10,6 @@ COPY . .
 
 EXPOSE 3000
 
+RUN yarn global add @nestjs/cli
+
 CMD ["yarn","run", "start:dev"]
